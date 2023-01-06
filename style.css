@@ -1,0 +1,212 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Work Sans", sans-serif;
+}
+/*  my header css start*/
+header {
+  width: 100%;
+  /* height: 100vh; */
+  background-image: url(./img/banner.png);
+  margin-bottom: 50px;
+}
+.header-maindiv {
+  text-align: right;
+  padding: 216px;
+}
+.header-th {
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 65px;
+  margin-bottom: 24px;
+}
+.header-pg {
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 16px;
+  margin-bottom: 30px;
+}
+.header-bt {
+  color: #005fac;
+  font-weight: 600;
+  font-size: 20px;
+  font-style: normal;
+  width: 160px;
+  height: 64px;
+  border-radius: 8px;
+  border: none;
+}
+/* my first section  css start*/
+
+.first-section {
+  width: 100%;
+  height: 100vh;
+}
+
+.sec-maindiv {
+  display: flex;
+  margin-left: 150px;
+}
+.sec-imgs {
+  margin-right: 80px;
+}
+
+.sec-sh-sp-sli {
+  font-style: normal;
+  margin-top: 250px;
+}
+.sec-sh {
+  color: #151414;
+  font-weight: 700;
+  font-size: 40px;
+  margin-bottom: 18px;
+}
+
+.sec-sp {
+  color: #444343;
+  font-weight: 400;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+.sec-li {
+  color: #444343;
+  list-style: none;
+}
+.sec-lis {
+  margin: 10px;
+}
+.icon {
+  width: 16px;
+  height: 16px;
+  margin: 5px;
+}
+/* my second section css start */
+.second-section {
+  width: 100%;
+  height: 55vh;
+  margin-top: 200px;
+}
+.sec2-shh {
+  text-align: center;
+}
+.sec2-maindiv {
+  display: flex;
+  justify-content: space-around;
+  margin: 50px 80px;
+}
+.sec2-imgs {
+  display: block;
+  margin: auto;
+}
+.sec2-sh {
+  color: #151414;
+  font-weight: 700;
+  font-size: 30px;
+  text-align: center;
+}
+.sec2-sp {
+  color: #737272;
+  font-weight: 500;
+  font-size: 25px;
+  text-align: center;
+}
+/* my third section css start */
+.third-section {
+  width: 100%;
+  height: 50vh;
+  margin-bottom: 60px;
+}
+.sec3-maindiv {
+  background-image: url(./img/gori.png);
+  background-repeat: no-repeat;
+  height: 50vh;
+  background-position: center;
+
+  border-radius: 15px;
+}
+.sec3-condiv {
+  background-image: url(./img/gradient.png);
+
+  background-position: center;
+  height: 50vh;
+  background-repeat: no-repeat;
+  border-radius: 15px;
+}
+
+.sec3-sh {
+  font-weight: 700;
+  font-size: 40px;
+  color: #ffffff;
+  margin-bottom: 30px;
+  margin-left: 200px;
+  padding-top: 90px;
+}
+.sec3-sb {
+  color: #005fac;
+  font-weight: 600;
+  font-size: 20px;
+  width: 160px;
+  height: 64px;
+  background: #ffffff;
+  border: none;
+  border-radius: 5px;
+  margin-left: 200px;
+}
+/* my footer css start */
+.footer {
+  width: 100%;
+  height: 70vh;
+  background: black;
+}
+.f-maindiv {
+  display: flex;
+}
+.f-contain1 {
+  margin: 80px 100px;
+  font-style: normal;
+}
+.f-contain2 {
+  margin: 100px 100px;
+  font-style: normal;
+}
+.f-fh {
+  color: #f8f8f8;
+  font-weight: 700;
+  font-size: 45px;
+  margin-bottom: 18px;
+}
+.f-fp {
+  font-weight: 400;
+  font-size: 16px;
+  color: #ffffff;
+  margin-bottom: 18px;
+}
+.f-imgs {
+  margin: 10px;
+}
+.f-con-fh {
+  font-weight: 600;
+  font-size: 25px;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+.f-con-input {
+  width: 325px;
+  height: 44px;
+  color: #f3f3f3;
+  font-weight: 400;
+  font-size: 18px;
+  border-radius: 15px;
+  padding: 15px;
+  background: #151414;
+  margin-bottom: 20px;
+}
+.f-con-bt {
+  background: #005fac;
+  border-radius: 8px;
+  width: 170.11px;
+  height: 64px;
+  font-weight: 600;
+  font-size: 20px;
+  color: #ffffff;
+}
